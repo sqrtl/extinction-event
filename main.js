@@ -27,6 +27,7 @@ for (let i = 0; i < dinoPhotos.length; i++ ){
 
 // Destroy everything. What to do with Burn
 const burningMan = document.querySelector('#destroy-all');
+const burnin = document.querySelector('#burn h3');
 
 burningMan.addEventListener('click',function(){
      // strikethrough
@@ -43,5 +44,5 @@ burningMan.addEventListener('click',function(){
     for (let i = 0; i < dinoPhotos.length; i++ ){
         dinoPhotos[i].style.height = 0;
     }
-    burningMan.style.color = 'orange';
-});
+    burnin.style.color = 'orange';
+}); 
